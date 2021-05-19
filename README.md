@@ -1,4 +1,4 @@
-# airflow
+# Airflow
 [airflow](https://github.com/apache/airflow)
 
 [Apache Airflow](https://airflow.apache.org/)는 복잡한 계산을 요하는 작업흐름과 데이터 처리 파이프라인을 조율하기 위해 만든 오픈소스 도구이다. 
@@ -8,6 +8,14 @@
 - Dynamic : Python으로 되어있고, 파이프 라인을 동적으로 생성하는 코드를 작성할 수 있다. 
 - Extensible
 - Elegant
+
+### WMS
+
+WMS 는 Workflow Management System 의 약자. Pipelining을 통해 목적을 달성하는 시스템
+
+데이터를 옮기고 변경시켜서 어떤 작업을 수행하는 것으로, 예를들면 서버에서 로그를 수집해서 DB에 INSERT하는 작업
+
+보통 크론잡을 통해 주기적으로 실행하다 문제가 발생하고 이를 관리하기 위해 사용한다. 
 
 
 ## Architecture
