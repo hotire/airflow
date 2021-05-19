@@ -15,7 +15,15 @@
 - Scheduler
 : 실행 주기가 되면 작업을 생성, 의존하는 작업이 모두 성공하면 Broker에 넘김
 
+- Worker
+: 실제 작업을 실행하는 주체
 
+- Broker
+:실행가능한 작업들이 들어가는 공간
+
+- Meta DB
+: DAG, Task 등이 정의되어있음
+DAG run, Task Instance 관리
 
 
 ## Getting Started
