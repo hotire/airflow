@@ -10,7 +10,7 @@
 - Elegant
 
 
-### Architecture
+## Architecture
 
 - Scheduler
 : 실행 주기가 되면 작업을 생성, 의존하는 작업이 모두 성공하면 Broker에 넘김
@@ -24,6 +24,10 @@
 - Meta DB
 : DAG, Task 등이 정의되어있음
 DAG run, Task Instance 관리
+
+
+### Concepts
+https://airflow.apache.org/docs/apache-airflow/stable/concepts.html#
 
 
 ## Getting Started
