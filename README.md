@@ -44,5 +44,13 @@ DAG run, Task Instance 관리
 https://airflow.apache.org/docs/apache-airflow/stable/concepts.html#
 
 
+사실 두가지만 알면 됩니다. DAG & Operator. DAG와 Operator를 결합하여 Task Instance를 만들면 복잡한 Workflow를 만들 수 있습니다.
+
+- DAG : 작업이 수행되어야 하는 순서에 대한 설명
+- Operator : 어떤 작업을 수행하기 위한 템플릿으로 작동하는 클래스
+Task : Operator의 매개 변수화 된 인스턴스
+Task Instance : 1) DAG에 할당되고 2) DAG의 특정 실행과 관련된 상태가 있는 Task
+
+
 ## Getting Started
 https://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/
