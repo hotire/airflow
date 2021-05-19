@@ -5,7 +5,7 @@
 
 ### Principles
 - Scalable : 모듈 아키텍쳐이며 메시지큐를 사용하여 Worker 수를 조정한다. 
-- Dynamic
+- Dynamic : Python으로 되어있고, 파이프 라인을 동적으로 생성하는 코드를 작성할 수 있다. 
 - Extensible
 - Elegant
 
