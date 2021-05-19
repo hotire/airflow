@@ -9,6 +9,10 @@
 - Extensible
 - Elegant
 
+### Pipeline
+
+데이터 처리 단계의 출력이 다음 단계의 입력으로 이어지는 형태로 연결된 구조
+
 ### WMS
 
 WMS 는 Workflow Management System 의 약자. Pipelining을 통해 목적을 달성하는 시스템
