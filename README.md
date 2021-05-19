@@ -24,6 +24,8 @@ WMS 는 Workflow Management System 의 약자. Pipelining을 통해 목적을 �
 
 ## Architecture
 
+![architecture](/doc/img/arch-diag-basic.png.png)
+
 - Scheduler
 : 실행 주기가 되면 작업을 생성, 의존하는 작업이 모두 성공하면 Broker에 넘김
 
