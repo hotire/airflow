@@ -71,3 +71,18 @@ Task Instance : 1) DAG에 할당되고 2) DAG의 특정 실행과 관련된 상�
 
 ## Getting Started
 https://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/
+
+
+
+## DAG(Directed Acyclic Graph)
+
+Airflow의 DAG(비순환 방향 그래프)는 실행하고 싶은 Task들의 관계와 dependency를 표현하고 있는 Task들의 모음입니다. 
+어떤 순서와 어떤 dependency로 실행할지, 어떤 스케줄로 실행할지 등의 정보를 가지고 있습니다. 따라서 DAG를 정확하게 설정해야, Task를 원하는 대로 스케쥴링할 수 있습니다.
+
+~~~airflow
+DAG(Directed Acyclic Graph) ID
+├── Task ID 1
+├── Task ID 2
+├── Task ID 3
+~~~
+
