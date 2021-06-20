@@ -86,3 +86,6 @@ DAG(Directed Acyclic Graph) ID
 ├── Task ID 3
 ~~~
 
+### References
+
+- [데이터야놀자2020] Airflow로 똑똑한 배치관리하기 : https://youtu.be/OB1euuIATkE
