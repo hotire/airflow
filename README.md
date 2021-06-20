@@ -1,7 +1,24 @@
 # Airflow
-[airflow](https://github.com/apache/airflow)
+[Airflow](https://github.com/apache/airflow)
 
 [Apache Airflow](https://airflow.apache.org/)는 복잡한 계산을 요하는 작업흐름과 데이터 처리 파이프라인을 조율하기 위해 만든 오픈소스 도구이다. 
+
+### ETL
+
+Extract, Transform, Load
+
+- Extract : 소스 data로부터 추출
+- Transform : DeNomalize 등의 추출된 데이터 변형
+- Load : DW(DataWarehouse)로의 데이터 적재
+
+필요한 raw data를 꺼낸다 -> 용도에 맞게 필터링/정형(reshaping)/정제 등의 단계를 수행한다 -> 정제된 데이터를 데이터웨어하우스에 적재한다
+
+3단계를 거치게된다. 
+
+데이터웨어하우스는 소스 시스템 또는 환경에서 추출된 그대로의 raw data를 처리할 수 없습니다.
+이 데이터를 분석한다거나 사용하기 위해서는 반드시 변환(Transform) 단계가 필요하죠.
+뿐만 아니라, raw data 중 수많은 레거시 데이터를 필터링 해내는 작업도 꼭 필요합니다.
+
 
 ### Principles
 - Scalable : 모듈 아키텍쳐이며 메시지큐를 사용하여 Worker 수를 조정한다. (분산구조와 메시지큐를 이용하여 많은 수의 워커간의 협업을 지원)
